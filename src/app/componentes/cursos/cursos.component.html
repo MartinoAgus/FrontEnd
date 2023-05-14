@@ -1,0 +1,13 @@
+
+<div class="btn-funcion">
+    <button class="boton-agregar" routerLink="/nuevocurso" *ngIf="isLogged"><i class="fa fa-plus"></i></button>
+    </div>
+<div class="curso" *ngFor="let Cursos of cursos">
+    <div class="btn-funcion">
+    <button class="boton-edit" routerLink="/editcurso/{{Cursos.id}}" *ngIf="isLogged"><i class="fa fa-pencil"></i></button>
+    <button class="boton-edit" (click)="delete(Cursos.id)" *ngIf="isLogged"><i class="fa fa-trash-can"></i></button>
+    </div>
+    <h4>{{Cursos.nombreC}}</h4>
+    <p>{{Cursos.descripcionC}}</p>
+</div>
+

@@ -1,0 +1,44 @@
+.curso {
+    text-align: left;
+    border: 1px solid rgb(152, 92, 221);
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 25px;
+    background-color: rgb(254, 217, 255);
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: rgb(88, 32, 151);
+    margin-bottom: 1px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.boton-edit {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(254, 217, 255);
+    padding-top: 3px;
+    border: 0px
+}
+
+.btn-funcion {
+    justify-content: right;
+    display: flex;
+}
+
+.boton-agregar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(254, 217, 255);
+    padding-top: 4px;
+    border: 1px solid rgb(152, 92, 221);
+    margin-bottom: 10px;
+
+}

@@ -1,0 +1,18 @@
+
+<div class="curso">
+    <form #f="ngForm" (ngSubmit)="onCreate()" novalidate class="form-agregar">
+        <div class="form-titulos">
+          <label for="nombreC" class="form-label">Nombre del curso</label>
+          <input type="text" id="nombreC" name="nombreC" class="form-control" 
+          [(ngModel)]="nombreC" required/>
+        </div>
+    
+        <div class="form-titulos">
+          <label for="descripcionC" class="form-label">Descripción</label>
+          <textarea type="text" id="descripcionC" name="descripcionC" class="textarea" [(ngModel)]="descripcionC" required></textarea>
+        </div>
+    
+        <button type="submit" class="boton-agregar">AGREGAR</button>
+    
+      </form> 
+</div>

@@ -1,0 +1,50 @@
+<form [formGroup]="form" class="form-contacto"  id="cont">
+    <h2 class="contacto">· CONTACTO ·</h2>
+    <div class="miinfo">
+    <h5><i class="fa fa-location-dot"></i> CABA, Argentina</h5>
+    <h5><i class="fa fa-whatsapp"></i> +54 11-00000000</h5>
+    <h5><i class="fa fa-envelope"></i> agustinamarielmartino@gmail.com</h5>
+    </div>
+    <div class="form-titulos">
+        <label for="nombre">Nombre: </label>
+        <input type="text" formControlName="nombre" class="form-control">
+        <div *ngIf="Nombre?.errors && Nombre?.touched">
+            <p *ngIf="Nombre?.hasError('required')" class="text-danger">
+                El nombre es requerido
+            </p>
+        </div>
+    </div>
+    <div class="form-titulos">
+        <label for="apellido">Apellido: </label>
+        <input type="text" formControlName="apellido" class="form-control">
+        <div *ngIf="Apellido?.errors && Apellido?.touched">
+            <p *ngIf="Apellido?.hasError('required')" class="text-danger">
+                El apellido es requerido
+            </p>
+        </div>
+    </div>
+    <div class="form-titulos">
+        <label for="email">Email: </label>
+        <input type="email" formControlName="email" class="form-control">
+        <div *ngIf="Email?.errors && Email?.touched">
+            <p *ngIf="Email?.hasError('required')" class="text-danger">
+                El email es requerido
+            </p>
+            <p *ngIf="Email?.hasError('email')" class="text-danger">
+                El formato de email debe ser válido
+            </p>
+        </div>
+    </div>
+    <div class="form-titulos">
+        <label for="comentarios">Comentarios: </label>
+        <textarea type="text" formControlName="mensaje" class="form-control textarea">
+        </textarea>
+        <div *ngIf="Mensaje?.errors && Mensaje?.touched">
+            <p *ngIf="Mensaje?.hasError('required')" class="text-danger">
+                Por favor dejá tu mensaje
+            </p>
+        </div>
+    </div>
+    <br/>
+    <button type="submit" class="enviar">ENVIAR</button>
+</form>

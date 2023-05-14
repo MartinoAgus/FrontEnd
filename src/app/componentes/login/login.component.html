@@ -1,0 +1,15 @@
+  <form #f="ngForm" (ngSubmit)="onLogin()" novalidate class="form-login">
+    <div class="mb-3">
+      <label for="nombreUsuario" class="form-label">Usuario</label>
+      <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control" aria-describedby="emailHelp" 
+      [(ngModel)]="nombreUsuario" required/>
+    </div>
+
+    <div class="mb-3">
+      <label for="password" class="form-label">Contraseña</label>
+      <input type="password" id="password" name="password" class="form-control" [(ngModel)]="password" required/>
+    </div>
+
+    <button type="submit" class="boton-login">LOGIN</button>
+
+  </form> 

@@ -1,0 +1,204 @@
+.progress-bar {
+    background-color: rgb(152, 92, 221);
+}
+
+.progress {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.div-ts {
+    margin-top: 15px;
+}
+
+.icono {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.div-js {
+    margin-top: 15px;
+}
+
+.icono-html {
+    width: 30px;
+    height: 30px;
+}
+
+.div-html {
+    margin-top: 15px;
+}
+
+.icono-css {
+    width: 30px;
+    height: 30px;
+}
+
+.div-css {
+    margin-top: 15px;
+}
+
+.icono-bootstrap {
+    width: 23px;
+    height: 23px;
+}
+
+.div-bootstrap {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.angular-icono {
+    width: 25px;
+    height: 25px;
+}
+
+.div-angular {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.java-icono {
+    width: 35px;
+    height: 33px;
+}
+
+.div-java {
+    height: 40px;
+    padding-top: 10px;
+    margin-bottom: 6px;
+    margin-top: 3px;
+}
+
+.nb-icono {
+    width: 25px;
+    height: 25px;
+}
+
+.div-nb {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.sb-icono {
+    height: 25px;
+    width: 25px;
+}
+
+.div-sb {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.mysql-icono {
+    width: 40px;
+    height: 40px;
+}
+
+.div-mysql {
+    height: 35px;
+    margin-top: 10px;
+}
+
+.vsc-icono {
+    height: 23px;
+    width: 23px;
+}
+
+.div-vsc {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.postman-icono {
+    height: 25px;
+    width: 25px;
+}
+
+.div-postman {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.github-icono {
+    height: 25px;
+    width: 25px;
+}
+
+.div-github {
+    margin-top: 15px;
+    margin-bottom: 3px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fondo-github {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    margin-right: 3px;
+}
+
+.resiliencia-icono {
+    height: 25px;
+    width: 25px;
+}
+
+.div-resiliencia {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.responsabilidad-icono {
+    height: 25px;
+    width: 25px;
+}
+
+.div-responsabilidad {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.flexibilidad-icono {
+    height: 25px;
+    width: 25px;
+}
+
+.div-flexibilidad {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.colaboracion-icono {
+    height: 27px;
+    width: 27px;
+}
+
+.div-colaboracion {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.creatividad-icono {
+    height: 27px;
+    width: 27px;
+}
+
+.div-creatividad {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    background-color: rgb(254, 217, 255);
+    border: 3px outset rgb(152, 92, 221);
+    color: rgb(88, 32, 151);
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 6px; 
+}

@@ -1,0 +1,122 @@
+.encabezado {
+    height: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.encabezado_principal {
+    max-width: 1100px;
+    height: 60px;
+    margin: auto;
+    position: relative;
+}
+
+.redes {
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.fa:hover {
+    color:rgb(88, 32, 151);
+    border: 3px, solid rgb(88, 32, 151);
+    box-shadow: 0 0 20px rgb(88, 32, 151);
+    transition: all 0.5s ease;
+    background-color: rgb(159, 117, 207);
+    color: antiquewhite;
+}
+
+.login {
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.boton-login {
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    padding-top: 3px;
+    border: 2px solid black;
+   
+}
+
+.boton-login:hover {
+    box-shadow: 0 0 20px rgb(71, 15, 134);
+    transition: all 0.5s ease;
+    background-color: rgb(254, 217, 255);
+    color: rgb(88, 32, 151);
+    border: 2px solid rgb(164, 79, 243);
+}
+
+.boton-logout {
+    width: 85px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    padding-top: 3px;
+    border: 2px solid black;
+}
+
+.boton-logout:hover {
+    box-shadow: 0 0 20px rgb(71, 15, 134);
+    transition: all 0.5s ease;
+    background-color: rgb(254, 217, 255);
+    color: rgb(88, 32, 151);
+    border: 2px solid rgb(164, 79, 243);
+}
+
+.boton-login:hover {
+    box-shadow: 0 0 20px rgb(71, 15, 134);
+    transition: all 0.5s ease;
+    background-color: rgb(254, 217, 255);
+    color: rgb(88, 32, 151);
+    border: 2px solid rgb(164, 79, 243);
+}
+    
+.foto_perfil {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.div-fotoperfil {
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    padding: 0;
+    margin: auto;
+}
+
+.fotoperfil_banner {
+    height: 250px;
+    width: 250px; 
+    border-radius: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+}
+
+.carta {
+    height: 70px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.foto_carta {
+    width: 90px;
+}
+
+.yo-programo {
+    height: 70px;
+    width: 100px;
+    display: flex;
+}
+
+.foto_yoprog {
+    width: 180px;
+    height: 60px;
+}

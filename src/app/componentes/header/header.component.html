@@ -1,0 +1,39 @@
+<header class="encabezado">
+    <div class="encabezado_principal">
+     <div class="login">
+      <button type="button" class="boton-login" (click)="login()" *ngIf="!isLogged">LOGIN</button>
+      <button type="button" class="boton-logout" (click)="onLogOut()" *ngIf="isLogged">LOGOUT</button>
+     </div>
+     <div id="instagram" class="redes">
+        <a href="https://www.instagram.com/agusmartino_/" target="_blank" class="fa fa-instagram fa-2x"></a>
+     </div>
+     <div id="facebook" class="redes">
+        <a href="https://www.facebook.com/agustinammartino" target="_blank" class="fa fa-facebook fa-2x"></a>
+     </div>
+     <div id="whatsapp" class="redes">
+        <a href="https://whatsapp.com/" target="_blank" class="fa fa-whatsapp fa-2x"></a>
+     </div>
+     <div id="github" class="redes">
+        <a href="https://github.com/MartinoAgus" target="_blank" class="fa fa-github fa-2x"></a>
+     </div>
+    </div>
+</header>
+  <div class="div-fotoperfil">
+   <div class="carta">
+      <a href="#cont">
+      <img src="assets/fotos/carta3.png"
+           alt="contacto"
+           class="foto_carta">
+      </a>
+   </div>
+   <div class="fotoperfil_banner">
+      <img src="assets/fotos/foto_perfil.jpg" 
+           alt="Agustina Martinó" 
+           class="foto_perfil">
+   </div>
+   <div class="yo-programo">
+      <img src="assets/fotos/argprog.png"
+      class="foto_yoprog">
+   </div>
+ </div>
+

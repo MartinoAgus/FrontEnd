@@ -1,0 +1,52 @@
+.text-danger {
+    margin-bottom: 0px;
+}
+
+.contacto {
+    color: antiquewhite;
+    text-shadow: -1.5px -1.5px 1.5px rgb(0, 0, 0);
+    margin-bottom: 0px;
+}
+
+.miinfo {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.form-contacto { 
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.form-control {
+    background-color: antiquewhite;
+    resize: none;
+    border: 1px solid black;
+}
+
+.form-titulos {
+    margin-top: 5px;
+}
+
+.textarea {
+    height: 140px;
+}
+
+.enviar {
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    padding-top: 3px;
+    border: 2px solid black;
+}
+
+.enviar:hover {
+    box-shadow: 0 0 20px rgb(71, 15, 134);
+    transition: all 0.5s ease;
+    background-color: rgb(254, 217, 255);
+    color: rgb(88, 32, 151);
+    border: 2px solid rgb(164, 79, 243);
+}

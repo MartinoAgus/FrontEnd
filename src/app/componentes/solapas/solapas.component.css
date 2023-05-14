@@ -1,0 +1,68 @@
+.lista {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    width: 650px;
+    margin-bottom: 0px;
+}
+
+.menu {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+    width: 1000px;
+    
+}
+
+.div-secundario {
+    margin: auto;
+    display: flex;
+}
+
+.solapa {
+    height: 30px;
+    width: 150px;
+    position: relative;
+    border: solid 1px black;
+    align-items: center;
+    background-color: antiquewhite;
+    border-bottom: none;
+    display: flex;
+}
+
+a {   
+    display: block;
+    width: 100% ;
+    align-items: center;
+    height: 30px;
+    padding-top: 4px;
+}
+
+a:hover{
+        color: rgb(88, 32, 151);
+        
+}
+
+.info-solapas {
+    margin: auto;
+    width: 700px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.linea {
+    margin-top: 30px;
+}
+
+.active {
+    background-color: antiquewhite;
+    color: rgb(88, 32, 151);
+    text-shadow: 0 0 15px  rgb(160, 31, 247);  
+}

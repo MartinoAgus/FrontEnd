@@ -7,7 +7,7 @@ import { texto } from '../model/texto.model';
   providedIn: 'root'
 })
 export class TextoService {
-  URL = 'http://localhost:8080/texto/';
+  URL = 'http://agustina-portfolio.onrender.com/texto/';
 
   constructor(private httpClient: HttpClient) { }
     public getTexto(): Observable<texto>{

@@ -9,7 +9,7 @@ import { LoginUsuario } from '../model/login-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'http://agustina-portfolio.onrender.com/auth/';
+  authURL = 'https://agustina-portfolio.onrender.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 

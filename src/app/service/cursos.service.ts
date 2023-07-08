@@ -7,7 +7,7 @@ import { Cursos } from '../model/cursos';
   providedIn: 'root'
 })
 export class CursosService {
-  URL = 'http://agustina-portfolio.onrender.com/cursos/';
+  URL = 'https://agustina-portfolio.onrender.com/cursos/';
   
   constructor(private httpClient : HttpClient) { }
 
